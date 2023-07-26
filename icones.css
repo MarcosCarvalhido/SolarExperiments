@@ -1,0 +1,72 @@
+#jogo1{
+  background-image: url(Icones/Roxi1.png);
+  transition: .2s;
+}
+#jogo1:hover{
+  background-image: url(Icones/Roxi2.png);
+  transition: .2s;
+}
+#jogo2{
+  background-image: url(Icones/Triangulos1.png);
+  transition: .2s;
+}
+#jogo2:hover{
+  background-image: url(Icones/Triangulos2.png);
+  transition: .2s;
+}
+#jogo3{
+  background-image: url(Icones/ParImpar1.png);
+  transition: .2s;
+}
+#jogo3:hover{
+  background-image: url(Icones/ParImpar2.png);
+  transition: .2s;
+}
+#jogo4{
+  background-image: url(Icones/GatoMorango1.png);
+  transition: .2s;
+}
+#jogo4:hover{
+  background-image: url(Icones/GatoMorango2.png);
+  transition: .2s;
+}
+#jogo5{
+  background-image: url(Icones/Calculadora1.png);
+  transition: .2s;
+}
+#jogo5:hover{
+  background-image: url(Icones/Calculadora2.png);
+  transition: .2s;
+}
+#jogo6{
+  background-image: url(Icones/Temperatura1.png);
+  transition: .2s;
+}
+#jogo6:hover{
+  background-image: url(Icones/Temperatura2.png);
+  transition: .2s;
+}
+#jogo7{
+  background-image: url(Experimentos/Jogo_da_Velha/Imagens/0-2.png);
+  transition: .2s;
+}
+#jogo7:hover{
+  background-image: url(Experimentos/Jogo_da_Velha/Imagens/0-1.png);
+  transition: .2s;
+}
+#jogo8{
+  background-image: url(Icones/Memoria1.png);
+  transition: .2s;
+}
+#jogo8:hover{
+  background-image: url(Icones/Memoria2.png);
+  transition: .2s;
+}
+#jogo9{
+  background-image: url(Icones/placeholder1.png);
+  transition: .2s;
+}
+#jogo9:hover{
+  background-image: url(Icones/placeholder2.png);
+  transition: .2s;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Temperatura - Solarized Experiments</title>
+  <link rel="icon" type="image/x-icon" href="../../Icones/icon.png">
+  <link href="Temperatura.css" rel="stylesheet" type="text/css" />
+  <link href="../../Paginas.css" rel="stylesheet" type="text/css" />
+  <script src="Temperatura.js"></script>
+</head>
+
+<body>
+  <header id="cabeçalho">
+
+    <h1 class="titulo">Conversor de Temperatura</h1>
+    <p>Escolha um modo para converter unidades de temperatura!</p>
+    <nav>
+      <a href="../../index.html"><span class="voltar">Voltar</span></a>
+    </nav>
+
+  </header>
+
+  <div id="botões">
+    <button class="botão" onclick="escolha(1)">Geolocalização</button>
+    <button class="botão" onclick="escolha(2)">Por cidade</button>
+    <button class="botão" onclick="escolha(3)">Manual</button>
+  </div>
+  <button class="voltar" onclick="escolha(4)" id="escolherOutro">Escolher Outro</button>
+
+  <div id="geo">
+    <section>
+      <h1 class="titulo"> Conversor de Temperatura GEO!</h1>
+      <p> Aceite o poput para converter a sua temperatura local!</p>
+      <button class="botão" onclick="conversãoGeo()">Converter</button>
+    </section>
+    <section>
+      <p><Span>Resultados:</Span> <br> <br>
+        Temperatura local em Celcius: &nbsp;<span id="resultadoC1"> </span> <br> <br>
+        Temperatura local em Fahrenheit:&nbsp;<span id="resultadoF1"> </span> <br> <br>
+        Temperatura local em Kelvin:&nbsp; <span id="resultadoK1"> </span> <br> <br></p>
+    </section>
+  </div>
+
+  <div id="cidade">
+    <section>
+      <h1 class="titulo"> Conversor de Temperatura LIVE!</h1>
+      <p> Escolha a cidade para checar a temperatura atual:</p>
+    </section>
+
+    <input class="input" type="text" id="cidadeInput">
+
+    <section>
+
+      <button class="botão" type="button" onclick="convesãoCidade()">Converter</button></p>
+
+      <p><span>Resultados:</span> <br> <br>
+        Temperatura local em Celcius: &nbsp;<span id="resultadoC2"> </span> <br> <br>
+        Temperatura local em Fahrenheit:&nbsp;<span id="resultadoF2"> </span> <br> <br>
+        Temperatura local em Kelvin:&nbsp; <span id="resultadoK2"> </span> <br> <br></p>
+    </section>
+  </div>
+
+  <div id="manual">
+
+    <section>
+      <h1 class="titulo"> Conversor de unidades V3</h1>
+      <p> Insira o valor que deseja converter:</p>
+      <input class="input" type="text" id="entrada" name="name">
+    </section>
+    <section>
+      <p><span>Apartir</span> de qual a unidade da temperatura você deseja converter? <br> </p>
+      <input type="radio" id="opçao1" name="opção1" value="0">
+      <label for="opçao1">Celcius</label><br>
+      <input type="radio" id="opçao1" name="opção1" value="1">
+      <label for="opçao1">Fahrenheit</label><br>
+      <input type="radio" id="opçao1" name="opção1" value="2">
+      <label for="opçao1">Kelvin</label><br>
+    </section>
+    <section>
+      <p><span>Para qual</span> a unidade da temperatura você deseja converter? <br> </p>
+      <input type="radio" id="opçao2" name="opção2" value="0">
+      <label for="opçao2">Celcius</label><br>
+      <input type="radio" id="opçao2" name="opção2" value="1">
+      <label for="opçao2">Fahrenheit</label><br>
+      <input type="radio" id="opçao2" name="opção2" value="2">
+      <label for="opçao2">Kelvin</label><br>
+    </section>
+    <br>
+    <section>
+      <button class="botão" type="button" onclick="conversãoManual()">Converter</button>
+      <p><span>Resultado:</span></p>
+      <p id="resultado"></p>
+    </section>
+  </div>
+</body>
+
+</html>

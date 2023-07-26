@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<!-- https://game-icons.net/1x1/lorc/crossed-bones.html
+https://game-icons.net/1x1/lorc/dinosaur-bones.html -->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Jogo Da Velha - Solarized Experiments</title>
+  <link href="JogoDaVelha.css" rel="stylesheet" type="text/css" />
+ <link href="../../Paginas.css" rel="stylesheet" type="text/css" />
+  
+</head>
+
+<body>
+
+  <nav>
+    <a href="../../index.html"><span class="voltar">Voltar</span></a>
+  </nav>
+  <h1 class="titulo">Jogo da velha</h1>
+  <button class="botão" onclick="modoDeJogo(0)" id="botão0">Jogador Vs Jogador</button>
+  <button class="botão" onclick="modoDeJogo(1)" id="botão1">Jogador Vs Maquina (Facil)</button>
+  <button disabled class="botão" onclick="modoDeJogo(2)" id="botão2">Jogador VS Maquina (Dificil)</button>
+  <button class="botão" onclick="modoDeJogo(3)" id="botãoVoltar" >Escolher outra dificuldade</button>
+ <button class="botão" onclick="limparTabuleiro()"id="jogarDeNovo" > Jogar Novamente </button>
+   <h1 id="resultado" class="titulo"></h1>
+  <table id="tabuleiro" > 
+    <tr>
+      <td id="casa00" onclick="jogar(0,0)"></td>
+      <td id="casa01" onclick="jogar(0,1)"></td>
+      <td id="casa02" onclick="jogar(0,2)"></td>
+    </tr>
+    <tr>
+      <td id="casa10" onclick="jogar(1,0)"></td>
+      <td id="casa11" onclick="jogar(1,1)">
+        
+      </td>
+      <td id="casa12" onclick="jogar(1,2)"></td>
+    </tr>
+    <tr>
+      <td id="casa20" onclick="jogar(2,0)"></td>
+      <td id="casa21" onclick="jogar(2,1)"></td>
+      <td id="casa22" onclick="jogar(2,2)"></td>
+    </tr>
+  </table>
+  
+<script src="JogoDaVelha.js"></script>
+</body>
+
+</html>

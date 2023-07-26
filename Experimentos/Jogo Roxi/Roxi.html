@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="Roxi.css" rel="stylesheet" type="text/css" />
+  <title>Jogo de Roxi - Solarized Experiments</title>
+  <link rel="icon" type="image/x-icon" href="../../Icones/icon.png">
+  <link href="../../Paginas.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <script src="Roxi.js"></script>
+  <div>
+    <header>
+      <h1 class="titulo">Roxi Dados</h1>
+      <p class="subtitulo"> Objetivo: chege o mais perto de 20 e ganhe da banca!</p>
+      <nav>
+        <a href="../../index.html"><span class="voltar">Voltar</span></a>
+      </nav>
+    </header>
+    <main>
+      <p>Adivinhe um numero: <button class="botão" id="primeiroBotão" onclick="jogar()"> Jogar Primeiro Dado</button>
+      </p>
+      <p id="numero">1</p>
+
+      <img id="dado" src="dado20.jpg"> <br>
+      <p class="botões" id="botões">
+        <button class="botão" onclick="manter()" id="manter">Manter dado</button>
+        <button class="botão" onclick="outroDado()" id="outroDado">Jogar outro dado</button>
+        <button class="botão" onclick="jogarNovamente()" id="jogarNovamente">Jogar Novamente</button>
+      </p>
+      <p><strong>Soma Total:</strong><span id="resultado">0</span></p>
+  </div>
+  <div class="final">
+    <p class="resposta"> Rolagem da Banca: <span id="rolagemDaBanca"> </span></P>
+    <strong>
+      <p id="resultadoPromp"></p>
+    </strong>
+    <p id="resultadoTexto"></p>
+  </div>
+  </main>
+</body>
+
+</html>

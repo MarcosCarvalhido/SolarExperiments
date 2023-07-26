@@ -1,0 +1,26 @@
+#geo,#cidade,#manual, #escolherOutro{
+  display: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#botões .botão{
+  width: 200px;
+  height: 200px;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+span{
+  font-weight: bold;
+}
+.input {
+  width: 200px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 20px;
+  text-align: left;
+}
+label:hover{
+  color: #002b36;
+  font-weight: bold;
+}

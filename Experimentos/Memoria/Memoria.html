@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="Memoria.css" rel="stylesheet" type="text/css" />
+  <title>Jogo Da Memoria - Solarized Experiments</title>
+  <link rel="icon" type="image/x-icon" href="../../Icones/icon.png">
+  <link href="../../Paginas.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="Memoria.js"></script>
+  <header>
+    <h1 class="titulo">Jogo Da Memoria </h1>
+    <p>Encontre os pares e vença o jogo</p>
+    <nav>
+      <a href="../../index.html"><span class="voltar">Voltar</span></a>
+    </nav>
+  </header>
+  <div id="resultado">
+    <h1 class="titulo">Você venceu!</h1>
+    <p>Jogo Terminado em <strong><span id="jogadas"></span></strong> jogadas!</p>
+    <button class="botão" onclick="jogarDeNovo()">Jogar Novamente</button>
+  </div>
+  <section class="TelaPrincipal">
+    <div onclick="jogar(0)" class="carta" id="fundo0">
+      <img class="cartaVerso" id="carta0">
+      <img class="cartaFrente" src="card-ace-diamonds.svg">
+    </div>
+    <div onclick="jogar(1)" class="carta" id="fundo1">
+      <img class="cartaVerso" id="carta1">
+      <img class="cartaFrente" src="card-ace-diamonds.svg">
+    </div>
+    <div onclick="jogar(2)" class="carta" id="fundo2">
+      <img class="cartaVerso" id="carta2">
+      <img class="cartaFrente" src="card-ace-diamonds.svg">
+    </div>
+    <div onclick="jogar(3)" class="carta" id="fundo3">
+      <img class="cartaVerso" id="carta3">
+      <img class="cartaFrente" src="card-ace-diamonds.svg">
+    </div>
+    <div onclick="jogar(4)" class="carta" id="fundo4">
+      <img class="cartaVerso" id="carta4">
+      <img class="cartaFrente" src="card-ace-diamonds.svg">
+    </div>
+    <div onclick="jogar(5)" class="carta" id="fundo5">
+      <img class="cartaVerso" id="carta5">
+      <img class="cartaFrente" src="card-ace-diamonds.svg">
+    </div>
+    <div onclick="jogar(6)" class="carta" id="fundo6">
+      <img class="cartaVerso" id="carta6">
+      <img class="cartaFrente" src="card-ace-diamonds.svg">
+    </div>
+    <div onclick="jogar(7)" class="carta" id="fundo7">
+      <img class="cartaVerso" id="carta7">
+      <img class="cartaFrente" src="card-ace-diamonds.svg">
+    </div>
+    <div onclick="jogar(8)" class="carta" id="fundo8">
+      <img class="cartaVerso" id="carta8">
+      <img class="cartaFrente" src="card-ace-diamonds.svg">
+    </div>
+    <div onclick="jogar(9)" class="carta" id="fundo9">
+      <img class="cartaVerso" id="carta9">
+      <img class="cartaFrente" src="card-ace-diamonds.svg">
+    </div>
+    <div onclick="jogar(10)" class="carta" id="fundo10">
+      <img class="cartaVerso" id="carta10">
+      <img class="cartaFrente" src="card-ace-diamonds.svg">
+    </div>
+    <div onclick="jogar(11)" class="carta" id="fundo11">
+      <img class="cartaVerso" id="carta11">
+      <img class="cartaFrente" src="card-ace-diamonds.svg">
+    </div>
+    <div onclick="jogar(12)" class="carta" id="fundo12">
+      <img class="cartaVerso" id="carta12">
+      <img class="cartaFrente" src="card-ace-diamonds.svg">
+    </div>
+    <div onclick="jogar(13)" class="carta" id="fundo13">
+      <img class="cartaVerso" id="carta13">
+      <img class="cartaFrente" src="card-ace-diamonds.svg">
+    </div>
+    <div onclick="jogar(14)" class="carta" id="fundo14">
+      <img class="cartaVerso" id="carta14">
+      <img class="cartaFrente" src="card-ace-diamonds.svg">
+    </div>
+    <div onclick="jogar(15)" class="carta" id="fundo15">
+      <img class="cartaVerso" id="carta15">
+      <img class="cartaFrente" src="card-ace-diamonds.svg">
+    </div>
+
+
+  </section>
+
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+.botão{
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+#resultado{
+  color:#073642;
+  font-weight: bold;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Par ou Impar - Solarized Experiments</title>
+  <link rel="icon" type="image/x-icon" href="../../Icones/icon.png">
+  <link href="parImpar.css" rel="stylesheet" type="text/css" />
+  <link href="../../Paginas.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="parImpar.js"></script>
+  <header>
+    <section>
+      <h1 class="titulo">Jogo de par ou impar</h1>
+      <p>Tente acertar se o proximo numero será par ou impar!</p>
+      <nav>
+        <a href="../../index.html"><span class="voltar">Voltar</span></a>
+      </nav>
+    </section>
+  </header>
+    <div class="Jogo">
+  <div class="imput">
+    <button class="botão" onclick="jogar(0)" id="par">Par</button>
+    <button class="botão" onclick="jogar(1)" id="impar">Impar</button>
+  </div>
+  <p>O numero sorteado foi: <strong><span id="numSorteado"></span></strong></p>
+  <p id="resposta"></p>
+  </div>
+
+</body>
+
+</html>

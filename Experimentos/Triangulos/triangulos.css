@@ -1,0 +1,18 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.triangulo{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-top-width: 0px;
+  border-right-width: 0px ;
+  border-bottom-width:0px ;
+  border-left-width:0px; 
+  border-color: transparent transparent #002b36 transparent;
+  margin: 100px;
+  display:  none;
+  text-align: center;
+}

@@ -1,0 +1,112 @@
+@font-face {
+  font-family: OpenDyslexic;
+  src: url('OpenDyslexic-Regular.otf');
+}
+
+.tela {
+  /* margin-left: auto;
+  margin-right: auto; */
+  text-align: center;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #002b36;
+  font-family: OpenDyslexic, arial;
+}
+
+h1 {
+  font-weight: bold;
+  color: #fdf6e3;
+  text-align: center;
+  text-shadow: 5px 5px #073642;
+
+}
+
+.celula {
+  height: 180px;
+  width: 150px;
+  margin: 5px;
+  display: inline-block;
+  text-align: center;
+}
+
+.icone {
+  height: 100px;
+  width: 100px;
+  border: solid #fdf6e3;
+  margin: 20px;
+  box-shadow: 5px 5px #073642;
+  border-radius: 30px;
+  transition: .2s;
+  background-size: cover;
+}
+
+.titulo {
+  opacity: 0;
+  transition: .2s;
+}
+
+.rodape {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  width: 99%;
+  font-size: 0.8rem;
+  color: #fdf6e3;
+}
+
+.rodape a {
+  text-decoration: underline;
+}
+
+.rodape a:link,
+.rodape a:visited {
+  color: #fdf6e3;
+}
+
+
+.botão {
+  height: 30px;
+  color: #002b36;
+  background-color: #fdf6e3;
+  font-size: 14px;
+  border: solid 2px #073642;
+  border-radius: 20px;
+  transition: .2s;
+  padding: 3px;
+  text-decoration: none;
+  margin: 10px;
+  font-family: OpenDyslexic, arial;
+}
+
+.botão:visited,
+.botão:link,
+a {
+  text-decoration: none;
+  font-style: none;
+}
+
+.botão:hover {
+  font-weight: bolder;
+  color: #fdf6e3;
+  background-color: #002b36;
+  transition: .2s;
+}
+
+
+.celula:hover .titulo {
+  opacity: 1;
+  transition: .2s;
+
+}
+
+.icone:hover {
+  transition: .2s;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 5px 5px #002b36;
+  border-color: #073642;
+  background-size: cover;
+}

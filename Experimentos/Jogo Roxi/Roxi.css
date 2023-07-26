@@ -1,0 +1,20 @@
+#numero {
+  z-index: 10;
+  font-size: 70px;
+  font-weight: bold;
+  color: #070002;
+  position: absolute;
+  top: 378px;
+  /* left: 47%; */
+  text-align: center;
+  width: 100%;
+  /* border: 1px solid blue; */
+}
+
+.botões {
+  display: none;
+}
+
+#jogarNovamente {
+  display: none;
+}

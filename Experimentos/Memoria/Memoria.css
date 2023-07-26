@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+  width: 100%;
+
+  Box-sizing: boder-box;
+}
+.jogo{
+  display:flex;
+  flex-wrap: wrap;
+  width: 840px;
+  height: 840px;
+  margin: 0 auto;
+}
+.carta{
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  position: relative;
+  display:flex;
+  
+  
+}
+.cartaFrente,.cartaVerso{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  
+  border: 1px solid transparent;
+  border-radius: 30px;
+}
+.cartaVerso{
+  z-index: 5;
+}
+.carta:hover{
+  opacity: 90%;
+  width: 204px;
+  height: 204px;
+  margin: 3px;
+  transition: 2ms;
+}
+header{
+  margin-bottom: 20px;
+}
+#resultado{
+  display: none;
+}

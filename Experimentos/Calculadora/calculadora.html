@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Calculadora - Solarized Experiments</title>
+  <link rel="icon" type="image/x-icon" href="../../Icones/icon.png">
+  <link href="calculadora.css" rel="stylesheet" type="text/css" />
+  <link href="../../Paginas.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <section>
+      <h1 class="titulo">Calculadora Basica</h1>
+      <p >Escolha qual operação deseja calcular!</p>
+      <nav>
+        <a href="../../index.html"><span class="voltar">Voltar</span></a>
+      </nav>
+    </section>
+  </header>
+  <div id="calc">
+    Numero 1: <input type="text" id="input1" class="input"> <br>
+    Numero 2: <input type="text" id="input2" class="input">
+    <div>
+      <button onclick="ação('adição')" class="botão"> Adição</button>
+      <button onclick="ação('subtração')" class="botão">Subtração</button>
+      <button onclick="ação('divisão')" class="botão">Divisão</button> <br>
+      <button onclick="ação('multiplicação')" class="botão">Multplicação</button>
+      <button onclick="ação('potenciação')" class="botão">Potenciação</button>
+      <button onclick="ação('raizQuadrada')" class="botão">Raiz Quadrada</button>
+    </div>
+    Resultado:
+    <span id="resultado"></span>
+  </div>
+  <script src="calculadora.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- Fontes: 
+http://apps.eky.hk/css-triangle-generator/
+https://developer.mozilla.org/en-US/docs/Web/CSS/border-width
+https://www.triangle-calculator.com/?q=a%3D3+b%3D4+c%3D5&submit=1
+-->
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Triangulos - Solarized Experiments</title>
+  <link rel="icon" type="image/x-icon" href="../../Icones/icon.png">
+  <link href="triangulos.css" rel="stylesheet" type="text/css" />
+  <link href="../../Paginas.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="index.html"></script>
+  <div>
+    <header>
+      <section>
+        <h1 class="titulo">Calculadora de Triangulos</h1>
+       <p> <span class="subtitulo">Adicione 3 valores para checar se é possivel fazer um triangulo com eles </span></p>
+        <nav>
+          <a href="../../index.html"><span class="voltar">Voltar</span></a>
+        </nav>
+      </section>
+    </header>
+    <main>
+      <section>
+        <input class="input" type="number" id="ladoA" placeholder="Tamanho do lado A">
+        <input class="input" type="number" id="ladoB" placeholder="Tamanho do lado B">
+        <input class="input" type="number" id="ladoC" placeholder="Tamanho do lado C">
+        
+  <div><button class="botão" placeholder="Checar" onclick="checarTriangulo()">Checar</button>
+    <p id="resultadoChecar"></p>
+    <p id="resultadoTipo"></p>
+  </div>
+  </section>
+   <div class="triangulo" id="triangulo">
+  </main>
+</body>
+
+</html>

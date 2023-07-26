@@ -1,0 +1,27 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+table{
+  border-radius: 20px;
+  border-collapse: collapse;
+  border:2px solid black;  /*Sem essa borda não funciona???*/
+  overflow: hidden;
+  margin: 30px auto;
+  margin-bottom: 30px;
+}
+
+td{
+  background-color: #002B36;
+  border:2px solid black;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+td:hover{
+  opacity:50%
+}
+#botãoVoltar, #tabuleiro, #jogarDeNovo{
+  display: none;
+}
