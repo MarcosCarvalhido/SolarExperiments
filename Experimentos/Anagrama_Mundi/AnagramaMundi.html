@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Anagrama Mundi - Solar Experiments</title>
+  <link href="AnagramaMundi.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="../../Icones/icon.png">
+  <link href="../../Paginas.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1 class="titulo"> Anagrama Mund<span class="cheat">i</span></h1>
+    <p class="subtitulo">Tente adivinhar o nome do pais antes que você perca todas as vidas!</p>
+      <nav>
+        <a href="../../index.html"><span class="voltar">Voltar</span></a>
+      </nav>
+  </header>
+  <Main>
+    <section class="dificuldades">
+      <p>Escolha o nivel de dificuldade:</p>
+      <button class="botão botDificuldade">Modo Facil ( 15 Vidas )</button>
+      <button class="botão botDificuldade">Modo Medio ( 10 Vidas )</button>
+      <button class="botão botDificuldade">Modo Dificil ( 5 Vidas )</button>
+    </section>
+    <button class="começar botão" >Começar!</button>
+    <section class="jogo">
+      <h2> Palavra da vez:</h2>
+      <section class="anagrama"></section>
+      <h2>Dica:</h2>
+      <span class="dica"></span>
+      <h2> Sua Resposta:</h2>
+      <button class="botão conferir">Conferir</button>
+      <input type="text" class="tentativa input">
+      <h2>Vidas: <span class="vidas"></span></h2>
+
+      
+    </section>
+    
+  </Main>
+  
+  <script src="AnagramaMundi.js"></script>
+</body>
+
+</html>

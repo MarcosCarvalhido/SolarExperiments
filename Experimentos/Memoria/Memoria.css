@@ -4,7 +4,7 @@ html {
 
   Box-sizing: boder-box;
 }
-.jogo{
+.TelaPrincipal{
   display:flex;
   flex-wrap: wrap;
   width: 840px;

@@ -63,10 +63,18 @@
   transition: .2s;
 }
 #jogo9{
-  background-image: url(Icones/placeholder1.png);
+  background-image: url(Icones/AnagramaMundi1.png);
   transition: .2s;
 }
 #jogo9:hover{
-  background-image: url(Icones/placeholder2.png);
+  background-image: url(Icones/AnagramaMundi2.png);
+  transition: .2s;
+}
+#jogo10{
+  background-image: url(Icones/Palavras1.png);
+  transition: .2s;
+}
+#jogo10:hover{
+  background-image: url(Icones/Palavras2.png);
   transition: .2s;
 }

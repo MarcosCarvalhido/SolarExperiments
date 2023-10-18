@@ -6,4 +6,8 @@
 #resultado{
   color:#073642;
   font-weight: bold;
+  font-size: 30px;
+}
+.final{
+  font-size: 100px;
 }

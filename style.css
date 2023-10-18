@@ -2,11 +2,16 @@
   font-family: OpenDyslexic;
   src: url('OpenDyslexic-Regular.otf');
 }
-
+body{
+  margin-top: 50px;
+}
 .tela {
   /* margin-left: auto;
   margin-right: auto; */
   text-align: center;
+  margin-top: 100px;
+  margin-left: 25vw;
+  margin-right: 25vw;
 }
 
 html {
@@ -49,7 +54,7 @@ h1 {
 }
 
 .rodape {
-  position: absolute;
+  /* position: absolute; */
   bottom: 10px;
   text-align: center;
   width: 99%;
@@ -109,4 +114,23 @@ a {
   box-shadow: 5px 5px #002b36;
   border-color: #073642;
   background-size: cover;
+}
+.splash{
+  cursor: pointer;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  width: 100%;
+  transform: translate(-50%,-50%);    
+  background-color: #002b36;
+  transition: all ease-in-out 600ms;
+}
+.splash h1{
+  margin-top: 50vh;
+  font-size: 70px;
+}
+.hidden{
+  transition: 0.5s;
+  display: none;
 }
